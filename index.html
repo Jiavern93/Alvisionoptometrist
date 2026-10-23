@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Alvision Optometrist is a professional optical shop and eye care practice in Taman Cheras, Kuala Lumpur. Providing comprehensive eye exams, spectacles, and contact lens fittings since 2003." />
+        <meta name="author" content="Alvision Optometrist" />
+        <meta property="og:title" content="Alvision Optometrist | Taman Cheras" />
+        <meta property="og:description" content="Professional Eye Care at Your Neighbourhood Optical Shop." />
+        <meta property="og:image" content="https://yourwebsite.com/assets/img/Alvision Storefront.png" />
+        <meta property="og:url" content="https://yourwebsite.com" />
+        <title>Alvision Optometrist</title>
+        <link rel="icon" type="image/x-icon" href="assets/Alvision Icon.ico" />
+
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        
+        <!-- Google fonts-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
+        
+        
+        <!-- ADDED: Chinese font fallback for future use -->
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet" />
+        
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
+            <div class="container px-5">
+                <!--Top Left Homepage Icon-->    
+                <a class="navbar-brand fw-bold" href="#page-top">
+                    <img src="assets/img/Alvision Website Logo.png" alt="Alvision Optometrist" data-i18n-alt="nav.brand_alt" height="40">
+                </a>    
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span data-i18n="nav.menu">Menu</span>
+                    <i class="bi-list"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#page-top">Home</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#eyecare">Eye Care</a></li>
+                        <!-- Hidden Navi Bar Until Page is Ready
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#brands" data-i18n="nav.brands">Brands</a></li>
+                        -->
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#eyehealthtips" data-i18n="nav.eyehealthtips">Eye Health Tips</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#contactus" data-i18n="nav.contact">Contact</a></li>
+                    </ul>
+                    
+                    <!-- ADDED: Hidden language switcher for future use. Remove "d-none" when Chinese is ready -->
+                    <div class="d-none me-3" id="lang-switcher">
+                        <button class="btn btn-sm btn-outline-secondary" onclick="setLanguage('en')">EN</button>
+                        <button class="btn btn-sm btn-outline-secondary" onclick="setLanguage('zh')">中文</button>
+                    </div>
+                    
+                    <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
+                        <span class="d-flex align-items-center">
+                            <i class="bi-chat-text-fill me-2"></i>
+                            <span class="small" data-i18n="nav.contact_btn">Message Us</span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Floating WhatsApp Button -->
+        <a href="https://wa.me/601159126856?text=Hi%20Alvision%2C%20I%27d%20like%20to%20enquire%20about%20an%20eye%20examination."
+            target="_blank"
+            rel="noopener"
+            aria-label="Chat with us on WhatsApp"
+            class="whatsapp-float">
+            <i class="bi bi-whatsapp"></i>
+            <span class="whatsapp-float__bubble">Chat with us</span>
+        </a>
+        
+        <!-- Section 1: Hero -->
+        <header class="masthead">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-7 d-flex align-items-center">
+                        <div class="text-center text-lg-start">
+                            <h1 class="display-3 lh-1 mb-5" data-i18n="hero.title">Professional Eye Care at Your Neighbourhood Optical Shop</h1>
+                            <p class="lead fw-normal text-dark mb-5" data-i18n="hero.description">Alvision Optometrist is an optical shop in Taman Cheras, Kuala Lumpur, proudly serving the community since 2003. Our practicing optometrist provide comprehensive eye examinations, eye health screenings, prescription spectacles, and contact lens fittings tailored to your needs.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="masthead-device-mockup">
+                            <img 
+                                src="assets/img/Alvision Storefront.png" 
+                                alt="Alvision Optometrist Shop Front in Taman Cheras" 
+                                class="img-fluid rounded-4 shadow-lg"
+                                style="max-height: 600px; object-fit: cover; width: 100%;"
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+                <!-- Section 2 Family Eye Care Section -->
+        <section id="eyecare" class="text-center bg-gradient-primary-to-secondary py-5">
+            <div class="container px-5">
+                
+                <div class="row justify-content-center mb-5">
+                    <div class="col-lg-8">
+                        <h2 class="text-white display-5 mb-3" data-i18n="family.title">Eye Care for the Whole Family – Every Age, Every Stage</h2>
+                        <p class="text-white lead" data-i18n="family.subtitle">Every stage of life brings different visual needs. From children's developing vision to the changing needs of adults and seniors, we provide professional, personalised eye care for your whole family.</p>
+                    </div>
+                </div>
+                
+                <div class="row gx-5">
+                    <div class="col-md-4 mb-4 mb-md-0">
+                        <div class="text-center px-2">
+                            <img src="assets/img/Icon Paed.svg" alt=" " class="mb-3" style="height: 150px; width:auto;">
+                            <h3 class="text-white h4 mb-3" data-i18n="services.paediatric.title">Paediatric Care & Myopia Control</h3>
+                            <p class="text-white mb-0" style="opacity: 0.9;" data-i18n="services.paediatric.desc">Gentle eye assessments and myopia control solutions to support healthy vision development in children.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 mb-4 mb-md-0">
+                        <div class="text-center px-2">
+                            <img src="assets/img/Icon Laptop.svg" alt=" " class="mb-3" style="height: 150px; width:auto;">
+                            <h3 class="text-white h4 mb-3" data-i18n="services.vision.title">Vision for Work & Everyday Life</h3>
+                            <p class="text-white mb-0" style="opacity: 0.9;" data-i18n="services.vision.desc">Digital eye strain relief, progressive lens fittings, and tailored solutions for work, sports, and daily activities.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <div class="text-center px-2">
+                            <img src="assets/img/Icon Eye Exam.svg" alt=" " class="mb-3" style="height: 150px; width:auto;">
+                            <h3 class="text-white h4 mb-3" data-i18n="services.screening.title">Comprehensive Eye Health Screenings</h3>
+                            <p class="text-white mb-0" style="opacity: 0.9;" data-i18n="services.screening.desc">Screenings for glaucoma, cataracts, and retinal conditions are essential for maintaining long-term eye health.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3 Our Eye Care Services -->
+        <section class="py-5 bg-light">
+            <div class="container px-5">
+                
+                <div class="row justify-content-center mb-5">
+                    <div class="col-lg-8 text-center">
+                        <h2 class="display-5 mb-3" data-i18n="services.section.title">Our Eye Care Services</h2>
+                        <p class="lead fw-normal text-dark mb-0" data-i18n="services.section.subtitle">From routine eye examinations to prescription spectacles, contact lenses and eye health screenings - professional eye care tailored to your visual needs.</p>
+                    </div>
+                </div>
+                
+                <div class="row g-4">
+                    <!-- Service 1. Comprehensive Eye Examination -->
+                    <div class="col-12 col-md-4">
+                        <div class="card h-100 border-0 rounded-4" style="background-color: #E3F2FD;">
+                            <div class="card-body text-center p-4">
+                                <h3 class="card-title mb-3 d-flex align-items-center justify-content-center text-center" style="min-height: 3rem;" data-i18n="services.1.title">Comprehensive Eye Examination</h3>
+                                <p class="card-text text-dark" data-i18n="services.1.desc">A thorough assessments of your vision and eye health, including binocular vision, color vision, and early signs of eye conditions - helping you see clearly and comfortably.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Service 2. Prescription Spectacles -->
+                    <div class="col-12 col-md-4">
+                        <div class="card h-100 border-0 rounded-4" style="background-color: #E8F5E9;">
+                            <div class="card-body text-center p-4">
+                                <h3 class="card-title mb-3 d-flex align-items-center justify-content-center text-center" style="min-height: 3rem;" data-i18n="services.2.title">Prescription Spectacles</h3>
+                                <p class="card-text text-dark" data-i18n="services.2.desc">Spectacles tailored to your lifestyle, with lens options including single vision, bifocal, progressive, and specialised lenses.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Service 3. Contact Lens Fittings -->
+                    <div class="col-12 col-md-4">
+                        <div class="card h-100 border-0 rounded-4" style="background-color: #FCE4EC;">
+                            <div class="card-body text-center p-4">
+                                <h3 class="card-title mb-3 d-flex align-items-center justify-content-center text-center" style="min-height: 3rem;" data-i18n="services.3.title">Contact Lens Fittings</h3>
+                                <p class="card-text text-dark" data-i18n="services.3.desc">Professional fitting for all visual needs - from first-time wearers to astigmatism, presbyopia, and specialised requirements - with assessment, guidance, and follow-up care.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Service 4. Paediatric Vision Care -->
+                    <div class="col-12 col-md-4">
+                        <div class="card h-100 border-0 rounded-4" style="background-color: #FFF3E0;">
+                            <div class="card-body text-center p-4">
+                                <h3 class="card-title mb-3" style="min-height: 3rem;" data-i18n="services.4.title">Paediatric Vision Care</h3>
+                                <p class="card-text text-dark" data-i18n="services.4.desc">Child-friendly eye assessments to evaluate vision and visual development, including binocular vision assessment and myopia management for healthy vision growth.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Service 5. Cataract Screening -->
+                    <div class="col-12 col-md-4">
+                        <div class="card h-100 border-0 rounded-4" style="background-color: #F3E5F5;">
+                            <div class="card-body text-center p-4">
+                                <h3 class="card-title mb-3" style="min-height: 3rem;" data-i18n="services.5.title">Cataract Screening</h3>
+                                <p class="card-text text-dark" data-i18n="services.5.desc">Cataract screening to assess for signs of cataracts and vision changes, with a clear explanation of findings and appropriate advise on next steps.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Service 6. Retinal Screenings -->
+                    <div class="col-12 col-md-4">
+                        <div class="card h-100 border-0 rounded-4" style="background-color: #E0F2F1;">
+                            <div class="card-body text-center p-4">
+                                <h3 class="card-title mb-3" style="min-height: 3rem;" data-i18n="services.6.title">Retinal Screening</h3>
+                                <p class="card-text text-dark" data-i18n="services.6.desc">Advanced retinal imaging to screen for diabetic retinopathy, macular degeneration, and glaucoma - often before symptoms appear.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Section 4 More Than Just Eyewear -->
+        <section class="text-center bg-gradient-primary-to-secondary py-5">
+            <div class="container px-5">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-8 text-center">
+                    <h2 class="text-white display-5 mb-3" data-i18n="choose.title">More Than Just Eyewear</h2>
+                    <p class="lead text-white lead" data-i18n="choose.subtitle">Eye care goes beyond checking your prescription. We take the time to understand your vision, lifestyle, and daily activities - recommending solutions tailored to your needs.</p>
+                </div>
+            </div>
+        
+            <div class="row g-4">
+                <!-- Card 1 -->
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 border-0 shadow bg-white rounded-4 p-4 text-center">
+                        <div class="mb-4 mt-2">
+                            <img src="assets/img/Icon Beyond Prescription.svg" alt="Beyond Prescription" style="height: 75px; width: auto;">
+                        </div>
+                        <h3 class="fw-bold mb-3" data-i18n="choose.1.title">Beyond the Prescription</h3>
+                        <p class="text-dark medium mb-0" data-i18n="choose.1.desc">We provide thorough assessments of your vision and eye health to understand your visual needs and detect changes early.</p>
+                    </div>
+                </div>
+            
+                <!-- Card 2 -->
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 border-0 shadow bg-white rounded-4 p-4 text-center">
+                        <div class="mb-4 mt-2">
+                            <img src="assets/img/Icon Tailored.svg" alt="Tailored Made" style="height: 75px; width: auto;">
+                        </div>
+                        <h3 class="fw-bold mb-3" data-i18n="choose.2.title">Solutions Tailored to You</h3>
+                        <p class="text-dark medium mb-0" data-i18n="choose.2.desc">Everyone has different visual demands. We consider your work, lifestyle, and daily routines when recommending spectacles, contact lenses or specialised lenses.</p>
+                    </div>
+                </div>
+            
+                <!-- Card 3 -->
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 border-0 shadow bg-white rounded-4 p-4 text-center">
+                        <div class="mb-4 mt-2">
+                            <img src="assets/img/Icon Aftercare.svg" alt="Aftercare" style="height: 75px; width: auto;">
+                        </div>
+                        <h3 class="fw-bold mb-3" data-i18n="choose.3.title">Ongoing Aftercare</h3>
+                        <p class="text-dark medium mb-0" data-i18n="choose.3.desc">Our care continues long after you receive your eyewear - with fitting adjustments, routine servicing, and follow-up support to keep your eyewear comfortable.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Section 5: Our History Timeline -->
+        <section id="about" class="bg-light py-5">
+            <div class="container px-5">
+                
+                <div class="row gx-5">
+                    <div class="col-12">
+                        <h2 class="display-4 lh-1 mb-4" data-i18n="history.title">From Alvision Optical to Alvision Optometrist</h2>
+                        <p class="lead fw-normal text-dark mb-0" data-i18n="history.subtitle">Serving the Cheras community since 2003, Alvision began as a small neighbourhood optical shop. In 2024, we transformed into Alvision Optometrist, expanding our practice with advanced diagnostic instruments for comprehensive eye examinations and eye health assessments. Today, we continue to provide personalised eye care while staying true to our neighbourhood roots.</p>
+                        <br>
+                    </div>
+                </div>
+                
+                <div class="position-relative">
+                    <div class="d-none d-md-block position-absolute top-0 bottom-0 start-50 translate-middle-x border-start border-3 border-primary"></div>
+                    
+                    <!-- Timeline Item 1: Text Left, Photo Right -->
+                    <div class="row align-items-center mb-5 position-relative">
+                        <div class="col-md-5 text-md-end mb-3 mb-md-0">
+                            <span class="badge bg-primary rounded-pill mb-3 px-3 py-2 fs-4">2003</span>
+                            <h3 class="h4 mb-2" data-i18n="history.1.title">Alvision Optical</h3>
+                            <p class="fst-italic text-dark mb-0" data-i18n="history.1.desc">Our beginnings as a trusted neighbourhood optical shop in Taman Cheras.</p>
+                        </div>
+                        <div class="col-md-2 text-center position-relative">
+                            <!-- Timeline Dot -->
+                            <div class="d-none d-md-block bg-primary rounded-circle mx-auto border border-3 border-white shadow-sm" style="width: 24px; height: 24px;"></div>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="assets/img/Old Alvision Photo.jpg" alt="Alvision Optical 2003" class="img-fluid rounded-4 shadow-sm" data-i18n-alt="history.1.alt">
+                        </div>
+                    </div>
+                    
+                    <!-- Timeline Item 2: Photo Left, Text Right -->
+                    <div class="row align-items-center position-relative">
+                        <div class="col-12 col-md-5 mb-3 mb-md-0 pe-md-4">
+                            <img src="assets/img/New Alvision Photo.png" alt="Alvision Optometrist 2024" class="img-fluid rounded-4 shadow-sm" data-i18n-alt="history.2.alt">
+                        </div>
+                        <div class="col-md-2 d-none d-md-flex justify-content-center position-relative">
+                            <div class="bg-primary rounded-circle border border-3 border-white shadow-sm" style="width: 24px; height: 24px;"></div>
+                        </div>
+                        <div class="col-12 col-md-5 text-md-start ps-md-4">
+                            <span class="badge bg-primary rounded-pill mb-3 px-3 py-2 fs-4">2024</span>
+                            <h3 class="h4 mb-2" data-i18n="history.2.title">Alvision Optometrist</h3>
+                            <p class="fst-italic text-dark mb-0" data-i18n="history.2.desc">Our clinical evolution—bringing primary eye care and advanced diagnostic screening to Cheras families.</p>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+                
+        <!-- Section 5b: People Behind Alvision -->
+        <section class="bg-light py-5">
+                <div class="container px-5">
+                <div class="row gx-5">
+                    <div class="col-12">
+                        <h3 class="display-4 lh-1 mb-4" data-i18n="basic.title">The People Behind Alvision</h3>
+                        <p class="lead fw-normal text-dark mb-0" data-i18n="basic.desc">Alvision is a family-run practice combining decades of optical craftmanship with dedicated clinical eye care.</p>
+                    </div>
+                </div>
+
+                <div class="row gx-5 mt-5 align-items-start">
+                    <!-- Optometrist -->
+                    <div class="col-12 col-md-6 text-center mb-5 mb-md-0">
+                        <img class="img-fluid rounded-4 mb-3" src="assets/img/Optometrist Photo.png" alt="Optometrist performing Anterior Eye Examinations" style="max-height: 500px; object-fit: cover; width: 90%;">
+                        <h3 class="h4 mb-2" data-i18n="history.img1.title">Optometrist</h3>
+                        <p class="fst-italic text-muted mb-0" data-i18n="history.img1.desc">Comprehensive Eye Examinations · Eye Health Assessments · Personalised Vision Care</p>
+                    </div>
+                    
+                    <!-- Optician -->
+                    <div class="col-12 col-md-6 text-center">
+                        <img class="img-fluid rounded-4 mb-3" src="assets/img/Optician Photo.png" alt="Optician performing lens fittings" style="max-height: 500px; object-fit: cover; width: 90%;">
+                        <h3 class="h4 mb-2" data-i18n="history.img2.title">Optician</h3>
+                        <p class="fst-italic text-muted mb-0" data-i18n="history.img2.desc">Vision Assessment · Optical Dispensing · Spectacle Fitting & Adjustments · Optical Workmanship</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 6: Eye Health Tips & Insights -->
+        <section id="eyehealthtips" class="py-5" style="background-color: #e6f0e4;">
+            <div class="container px-5">
+                <div class="row gx-5 mb-5">
+                    <div class="col-12 text-center">
+                        <h2 class="display-4 mb-4" data-i18n="tips.title">Eye Health Tips & Insights</h2>
+                        <p class="lead fw-normal text-dark mb-0" data-i18n="tips.subtitle">Explore helpful information about eye health, vision & everyday eye care - from Alvision Optometrist.</p>
+                    </div>
+                </div>
+                
+                <div class="row g-4">
+                    <!-- Card 1 -->
+                    <div class="col-12 col-md-4">
+                        <div class="card h-100 border-0 shadow rounded-4 overflow-hidden">
+                            <a href="#">
+                                <img class="card-img-top" src="assets/img/Blog 1 Cataract.jpg" alt="Cataract Tips" style="height: 220px; object-fit: cover;">
+                            </a>
+                            <div class="card-body p-4">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    <h5 class="card-title fw-bold mb-3" data-i18n="tips.1.title">Cataracts: Early Signs and How They Affect Your Vision</h5>
+                                </a>
+                                <p class="card-text text-muted mb-4" data-i18n="tips.1.desc">Learn about common signs of cataracts, how they can affect your vision and when to have your eyes checked.</p>
+                                <a href="#" class="btn btn-outline-primary rounded-pill px-4 py-2 d-inline-flex align-items-center gap-2" data-i18n="tips.readmore">
+                                    Read more
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 2 -->
+                    <div class="col-12 col-md-4">
+                        <div class="card h-100 border-0 shadow rounded-4 overflow-hidden">
+                            <a href="#">
+                                <img class="card-img-top" src="assets/img/Blog 2 Digital Eye Strain.jpg" alt="Digital eye strain tips" style="height: 220px; object-fit: cover;">
+                            </a>
+                            <div class="card-body p-4">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    <h5 class="card-title fw-bold mb-3" data-i18n="tips.2.title">Digital Eye Strain: Why Your Eyes Feel Tired After Screen Use?</h5>
+                                </a>
+                                <p class="card-text text-muted mb-4" data-i18n="tips.2.desc">Discover common causes of digital eye strain and practical ways to make screen time more comfortable.</p>
+                                <a href="#" class="btn btn-outline-primary rounded-pill px-4 py-2 d-inline-flex align-items-center gap-2" data-i18n="tips.readmore">
+                                    Read more
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 3 -->
+                    <div class="col-12 col-md-4">
+                        <div class="card h-100 border-0 shadow rounded-4 overflow-hidden">
+                            <a href="#">
+                                <img class="card-img-top" src="assets/img/Blog 3 Children Vision.png" alt="Children vision tips" style="height: 220px; object-fit: cover;">
+                            </a>
+                            <div class="card-body p-4">
+                                <a href="#" class="text-decoration-none text-dark">
+                                    <h5 class="card-title fw-bold mb-3" data-i18n="tips.3.title">Children Vision: Is Your Child Seeing Clearly?</h5>
+                                </a>
+                                <p class="card-text text-muted mb-4" data-i18n="tips.3.desc">Children's vision plays an important role in learning and development. Learn to recognise signs of blurry vision and when your child may need an eye examination.</p>
+                                <a href="#" class="btn btn-outline-primary rounded-pill px-4 py-2 d-inline-flex align-items-center gap-2" data-i18n="tips.readmore">
+                                    Read more
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 7: Visit Our Clinic -->
+        <section id="contactus" class="py-5" style="background: rgb(241, 241, 241);">
+            <div class="container px-5">
+                
+                <div class="row gx-5 mb-5">
+                    <div class="col-12 text-center">
+                        <h2 class="display-4 mb-4" data-i18n="contact.title">Visit Alvision Optometrist in Taman Cheras</h2>
+                        <p class="lead fw-normal text-dark mb-0" data-i18n="contact.subtitle">Looking for a professional optical shop & optometry practice in Taman Cheras, Kuala Lumpur? Visit Alvision Optometrist for comprehensive eye examinations, prescription spectacles, contact lens fittings, and personalised eye care. Walk-ins are welcome.</p>
+                    </div>
+                </div>
+
+                <div class="row g-5 align-items-stretch">
+                    <!-- LEFT COLUMN: Address, Contact, Hours -->
+                    <div class="col-lg-5">
+                        <div class="mb-4">
+                            <h5 style="color: #1a2a6c;" data-i18n="contact.address_title">
+                                <i class="bi bi-geo-alt-fill me-2 text-primary"></i>
+                                Address
+                            </h5>
+                            <p class="mb-0" style="color: #333;" data-i18n="contact.address_text">
+                                Alvision Optometrist<br />
+                                6, Jalan 1/95<br />
+                                Taman Cheras, 56100 Cheras<br />
+                                Kuala Lumpur
+                            </p>
+                        </div>
+
+                        <!-- Contact Number -->
+                        <div class="mb-4">
+                            <h5 style="color: #1a2a6c;" data-i18n="contact.contact_title">
+                                <i class="bi bi-telephone-fill me-2 text-primary"></i>
+                                Contact
+                            </h5>
+                            <p class="mb-0" style="color: #333;">
+                                <span data-i18n="contact.phone_label">Phone:</span> <a href="tel:+601159126856" style="color: #4a7c59; text-decoration: none;">+011-5912 6856</a>
+                            </p>
+                            <p class="mb-0" style="color: #333;">
+                                <span data-i18n="contact.whatsapp_label">WhatsApp:</span> <a href="https://wa.me/6011159126856" target="_blank" style="color: #4a7c59; text-decoration: none;">+6011-5912 6856</a>
+                            </p>
+                        </div>
+
+                        <!-- Operating Hours -->
+                        <div class="mb-4">
+                            <h5 style="color: #1a2a6c;" data-i18n="contact.hours_title">
+                                <i class="bi bi-clock-fill me-2 text-primary"></i>
+                                Operating Hours
+                            </h5>
+                            <ul class="list-unstyled mb-0" style="color: #333;">
+                                <li class="d-flex justify-content-between border-bottom py-2">
+                                    <span data-i18n="contact.mon_sat">Monday – Saturday</span>
+                                    <span data-i18n="contact.time_mon_sat">9:00 AM – 7:00 PM</span>
+                                </li>
+                                <li class="d-flex justify-content-between border-bottom py-2">
+                                    <span data-i18n="contact.sunday">Sunday</span>
+                                    <span data-i18n="contact.time_sun">9:00 AM – 2:00 PM</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- ✅ Button moved here — inside the left column, below hours -->
+                        <div class="mt-4">
+                            <a href="https://wa.me/601159126856?text=Hi%20Alvision%2C%20I%27d%20like%20to%20book%20an%20eye%20examination."
+                            target="_blank"
+                            class="btn py-3 px-4 rounded-pill text-white"
+                            style="background-color: #25D366; border: none; font-weight: 600;"
+                            data-i18n="contact.book_btn">
+                                <i class="bi bi-whatsapp me-2"></i>
+                                Book an Eye Examination
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- RIGHT COLUMN: Google Map -->
+                    <div class="col-lg-7">
+                        <div class="ratio ratio-4x3 h-100 rounded-3 overflow-hidden shadow-sm">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3983.9775104021332!2d101.7397634!3d3.1006347!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc35d234053321%3A0xedd405042451b4f2!2zQWx2aXNpb24gT3B0b21ldHJpc3Qg5YSq6KaW55y856eR5YWJ5a24!5e0!3m2!1sen!2smy!4v1791963682935!5m2!1sen!2smy" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Alvision Optometrist Location">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="py-5" style="background-color: #1a1f71;">
+            <div class="container px-5">
+
+                <!-- Top: Logo + Bio | Quick Links -->
+                <div class="row g-5 mb-4">
+
+                    <!-- Column 1: Logo + Bio -->
+                    <div class="col-lg-6">
+                        <img src="assets/img/Alvision Website Logo Gold white.png"
+                            alt="Alvision Optometrist"
+                            style="height: 100px; margin-bottom: 1.25rem;">
+
+                        <p class="mb-0" style="color: rgba(255,255,255,0.75); max-width: 420px; line-height: 1.7;">
+                            Professional eye care in Taman Cheras, Kuala Lumpur. Proudly serving the Cheras community since 2003.
+                        </p>
+                    </div>
+
+                    <!-- Column 2: Quick Links + Socials -->
+                    <div class="col-lg-6">
+                        <h6 class="text-white mb-3"
+                            style="letter-spacing: 1.5px; text-transform: uppercase; font-size: 0.8rem; font-weight: 600; margin-top: 60px;">
+                            Quick Links
+                        </h6>
+
+                        <!-- Quick Links — inline with dividers -->
+                        <nav class="mb-4" style="color: rgba(255,255,255,0.75);">
+                            <a href="#page-top" style="color: rgba(255,255,255,0.75); text-decoration: none;">Home</a>
+                            <span class="mx-2" style="color: rgba(255,255,255,0.3);">|</span>
+                            <a href="#about" style="color: rgba(255,255,255,0.75); text-decoration: none;">About</a>
+                            <span class="mx-2" style="color: rgba(255,255,255,0.3);">|</span>
+                            <a href="#eyecare" style="color: rgba(255,255,255,0.75); text-decoration: none;">Eye Care</a>
+                            <span class="mx-2" style="color: rgba(255,255,255,0.3);">|</span>
+                            <!-- Hidden
+                            <a href="brands.html" style="color: rgba(255,255,255,0.75); text-decoration: none;">Brands</a>
+                            <span class="mx-2" style="color: rgba(255,255,255,0.3);">|</span>
+                            -->
+                            <a href="#eyehealthtips" style="color: rgba(255,255,255,0.75); text-decoration: none;">Eye Care Tips</a>
+                            <span class="mx-2" style="color: rgba(255,255,255,0.3);">|</span>
+                            <a href="#contactus" style="color: rgba(255,255,255,0.75); text-decoration: none;">Contact</a>
+                            
+                        </nav>
+
+                        <!-- Social Icons -->
+                        <div class="d-flex align-items-center gap-3">
+
+                            <!-- Facebook -->
+                            <a href="https://facebook.com/AlvisionOptometrist/"
+                            target="_blank"
+                            aria-label="Facebook"
+                            class="d-flex align-items-center justify-content-center rounded-circle"
+                            style="width: 40px; height: 40px; color: #ffffff; text-decoration: none; font-size: 1.25rem;">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+
+                            <!-- Instagram -->
+                            <a href="https://instagram.com/alvisionoptometrist/"
+                            target="_blank"
+                            aria-label="Instagram"
+                            class="d-flex align-items-center justify-content-center rounded-circle"
+                            style="width: 40px; height: 40px; color: #ffffff; text-decoration: none; font-size: 1.25rem;">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+
+                            <!-- Xiaohongshu (小红书) -->
+                            <a href="https://xhslink.cn/m/6MMS0j9XGb7"
+                            target="_blank"
+                            aria-label="Xiaohongshu"
+                            class="d-flex align-items-center justify-content-center rounded-circle"
+                            style="width: 40px; height: 40px; color: #ffffff; text-decoration: none; font-weight: 700; font-size: 0.75rem;">
+                                小红书
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+        
+                <!-- Divider -->
+                <hr style="border-color: rgba(255,255,255,0.15); margin: 2rem 0 1.5rem 0;">
+
+                <!-- Bottom: Copyright -->
+                <div class="text-center small" style="color: rgba(255,255,255,0.5);">
+                    &copy; <span id="footer-year"></span> Alvision Optometrist. All Rights Reserved.
+                </div>
+            </div>
+        </footer>
+
+        <script>
+            // Auto-update copyright year
+            document.getElementById('footer-year').textContent = new Date().getFullYear();
+        </script>
+        
+        <!-- Feedback Modal-->
+        <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header bg-gradient-primary-to-secondary p-4">
+                        <!-- ADDED: data-i18n -->
+                        <h5 class="modal-title font-alt text-white" id="feedbackModalLabel" data-i18n="modal.title">Have Questions About Your Eyes?</h5>
+                        <button class="btn-close btn-close-white" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body border-0 p-4">
+                        <form action="https://api.web3forms.com/submit" method="POST">
+                            <!-- Web3Forms Access Key -->
+                            <input type="hidden" name="access_key" value="743deed4-ab1b-4aba-9fd5-9195cc86eab8">
+    
+                            <!-- Optional: Redirect to a custom Thank You page 
+                            <input type="hidden" name="redirect" value="https://yourwebsite.com/thank-you.html">
+                            -->
+
+                            <!-- Name input-->
+                            <div class="mb-3 medium text-muted" data-i18n="modal.intro_text">
+                                From eye strain to myopia control and spectacle advice, our optometry team is here to help. Drop us a message below!
+                            </div>
+
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="name" name="name" type="text" placeholder="Enter your name..." required />
+                                <!-- ADDED: data-i18n -->
+                                <label for="name" data-i18n="modal.name_label">Name</label>
+                                <!-- ADDED: data-i18n -->
+                                <div class="invalid-feedback" data-sb-feedback="name:required" data-i18n="modal.name_error">A name is required.</div>
+                            </div>
+
+                            <!-- Phone number input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="phone" name="phone" type="tel" placeholder="(123) 456-7890" required />
+                                <!-- ADDED: data-i18n -->
+                                <label for="phone" data-i18n="modal.phone_label">Phone number</label>
+                                <!-- ADDED: data-i18n -->
+                                <div class="invalid-feedback" data-sb-feedback="phone:required" data-i18n="modal.phone_error">A phone number is required.</div>
+                            </div>
+
+                            <!-- Email address input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="email" name="email" type="email" placeholder="name@example.com" />
+                                <label for="email" data-i18n="modal.email_label">Email address (optional)</label>
+                            </div>
+
+                            <!-- Message input-->
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="message" name="message" placeholder="Enter your message here..." style="height: 10rem" required></textarea>
+                                <!-- ADDED: data-i18n -->
+                                <label for="message" data-i18n="modal.message_label">Ask us anything about your eyes</label>
+                                <!-- ADDED: data-i18n -->
+                                <div class="invalid-feedback" data-sb-feedback="message:required" data-i18n="modal.message_error">A message is required.</div>
+                            </div>
+
+                            <!-- Submit Button-->
+                            <div class="d-grid">
+                                <button class="btn btn-primary rounded-pill btn-lg" type="submit" data-i18n="modal.submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        
+        <!-- Translation file -->
+        <script src="js/lang.js"></script>
+    </body>
+</html>
