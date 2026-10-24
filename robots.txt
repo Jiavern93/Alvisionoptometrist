@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.alvisionoptometrist.com.my/sitemap.xml
